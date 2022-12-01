@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "marca": "Nike",
+        "modelo": "Vaporfly",
+        "genero": "hombre",
+        "color": "Verde",
+        "precio": 65000,
+        "imagen": "vaporfly.jpeg"
+    },
+    {
+        "id": 2,
+        "marca": "Adidas",
+        "modelo": "Adizero",
+        "genero": "Mujer",
+        "color": "Blancas",
+        "precio": 62000,
+        "imagen": "adizero.jpeg"
+    },
+    {
+        
+        "id": 3,
+        "marca": "New Balance",
+        "modelo": "Echo",
+        "genero": "Hombre",
+        "color": "Negro",
+        "precio": 35000,
+        "imagen": "nb echo.jpg"
+    },
+    {
+        "id": 4,
+        "marca": "Saucony",
+        "modelo": "Endorphine",
+        "genero": "Hombre",
+        "color": "Rojo",
+        "precio": 75000,
+        "imagen": "saucony.jpeg"
+    },
+    {
+        "id": 5,
+        "marca": "Asics",
+        "modelo": "Flypro",
+        "genero": "Mujer",
+        "color": "Blanco",
+        "precio": 45000,
+        "imagen": "asics.webp"
+    },
+    {
+        "id": 6,
+        "marca": "Puma",
+        "modelo": "Velocity",
+        "genero": "Hombre",
+        "color": "Negro",
+        "precio": 44000,
+        "imagen": "velocity.jpeg"
+    }
+]

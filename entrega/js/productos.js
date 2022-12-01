@@ -29,7 +29,7 @@ function agregarproductos(){
     let zapacreada = new Zapatilla(catalogo.length+1, inputmarca.value, inputmodelo.value,inputcolor.value, inputgenero.value, parseInt(inputprecio.value), "nike.jpg")
     //Objeto creado lo pusheo al array
     catalogo.push(zapacreada)
-    //TAMBIÉN MODIFICAMOS ARRAY DEL STORAGE:
+   
     localStorage.setItem("catalogo", JSON.stringify(catalogo))
    
     mostrarcatalogo(catalogo)
@@ -69,7 +69,7 @@ function mostrarcatalogo(array){
 function buscar(buscado){
     let busqueda = catalogo.filter(
         (zapa) => zapa.marca.toLowerCase().includes(buscado.toLowerCase()) || zapa.modelo.toLowerCase().includes(buscado.toLowerCase())
-        // Coincidencias sin includes (libro) => libro.autor.toLowerCase() == buscado.toLowerCase() || libro.titulo.toLowerCase() == buscado.toLowerCase()
+        
     )
     //con ternario:
     busqueda.length == 0 ? 
@@ -196,7 +196,7 @@ function carrito_add(zapa){
     localStorage.setItem("carrito", JSON.stringify(zapasencarrito))
     console.log(zapasencarrito)
     Swal.fire({
-        // position: "top-end",
+      
         title: "Ha agregado un producto",
         icon: "success",
         confirmButtonText: "Entendido",
